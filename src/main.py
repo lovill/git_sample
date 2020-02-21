@@ -1,5 +1,5 @@
 def sayBye():
-	raise Exception()
+	print("Bye bye")
 
 def sayHello():
 	print("Hello World")
@@ -7,6 +7,7 @@ def sayHello():
 def main():
 
 	sayHello()
+	sayBye()
 
 main()
 
